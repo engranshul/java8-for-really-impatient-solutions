@@ -1,12 +1,7 @@
 package de.galperin.javase8.capitel1;
-
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
 
-/**
- * User: eugen
- * Date: 27.10.14
- */
 public class C1E6 implements Exercise {
 
     @Test
@@ -22,6 +17,8 @@ public class C1E6 implements Exercise {
         ).start();
     }
 
+    // method uncheck catches all checked exceptions and turns them into
+    // unchecked exceptions
     public static Runnable uncheck(RunnableEx runner) {
         return () -> {
             try {
@@ -34,7 +31,5 @@ public class C1E6 implements Exercise {
 
 @FunctionalInterface
 interface RunnableEx {
-
     void run() throws Exception;
-
 }

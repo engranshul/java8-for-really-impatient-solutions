@@ -2,14 +2,9 @@ package de.galperin.javase8.capitel1;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.io.File;
 import java.util.Arrays;
 
-/**
- * User: eugen
- * Date: 27.10.14
- */
 public class C1E4 implements Exercise {
 
     @Test
@@ -22,6 +17,7 @@ public class C1E4 implements Exercise {
     private static File[] sort(String dir){
         File dirFile = new File(dir);
         File[] files = dirFile.listFiles();
+        // custom sorting logic
         Arrays.sort(files, (f1, f2) -> {
             if (f1.isDirectory() && !f2.isDirectory()) {
                 return -1;
@@ -34,3 +30,6 @@ public class C1E4 implements Exercise {
         return files;
     }
 }
+
+// Integer.compare
+// str1.compareTo(str2)

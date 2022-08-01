@@ -2,7 +2,6 @@ package de.galperin.javase8.capitel1;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.concurrent.CopyOnWriteArraySet;
@@ -11,10 +10,6 @@ import java.util.function.Predicate;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 27.10.14
- */
 public class C1E9 implements Exercise {
 
     @Test
@@ -30,6 +25,7 @@ public class C1E9 implements Exercise {
     }
 }
 
+// interface extending interface
 interface Collection2<T> extends Collection<T> {
     default void forEachIf(Consumer<T> action, Predicate<T> filter) {
         forEach(e -> {
@@ -40,5 +36,6 @@ interface Collection2<T> extends Collection<T> {
     }
 }
 
+// created my custom arraylist
 class ArrayList2<T> extends ArrayList<T> implements Collection2<T> {
 }

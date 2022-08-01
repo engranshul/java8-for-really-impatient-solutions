@@ -2,14 +2,9 @@ package de.galperin.javase8.capitel1;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.io.File;
 import java.util.Arrays;
 
-/**
- * User: eugen
- * Date: 27.10.14
- */
 public class C1E2 implements Exercise {
 
     @Test
