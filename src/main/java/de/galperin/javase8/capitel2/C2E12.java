@@ -2,15 +2,10 @@ package de.galperin.javase8.capitel2;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * User: eugen
- * Date: 30.10.14
- */
 public class C2E12 implements Exercise {
 
     @Test

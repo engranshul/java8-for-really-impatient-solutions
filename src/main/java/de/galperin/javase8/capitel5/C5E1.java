@@ -9,10 +9,7 @@ import java.time.Period;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 23.11.14
- */
+
 public class C5E1 implements Exercise {
 
     @Test

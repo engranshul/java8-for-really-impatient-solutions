@@ -7,10 +7,6 @@ import java.util.function.Supplier;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * User: eugen
- * Date: 01.11.14
- */
 public class C3E1 implements Exercise {
 
     @Test

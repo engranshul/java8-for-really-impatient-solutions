@@ -2,13 +2,8 @@ package de.galperin.javase8.capitel2;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.util.stream.Stream;
 
-/**
- * User: eugen
- * Date: 28.10.14
- */
 public class C2E5 implements Exercise {
 
     @Test
@@ -20,6 +15,7 @@ public class C2E5 implements Exercise {
     }
 
     public Stream<Long> randomStream(long seed, long a, long c, long m){
+        // using Stream.iterate to make an infinite stream of random nos
         return Stream.iterate(seed, e -> (a * e + c) % m);
     }
 }

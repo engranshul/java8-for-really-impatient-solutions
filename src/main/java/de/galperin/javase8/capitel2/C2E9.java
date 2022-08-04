@@ -11,10 +11,6 @@ import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 28.10.14
- */
 public class C2E9 implements Exercise {
 
     @Test
@@ -68,6 +64,4 @@ public class C2E9 implements Exercise {
                 }
         );
     }
-
-
 }

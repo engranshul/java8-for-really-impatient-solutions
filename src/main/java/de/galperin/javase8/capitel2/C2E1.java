@@ -14,10 +14,6 @@ import java.util.concurrent.Future;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 28.10.14
- */
 public class C2E1 implements Exercise {
 
     @Test
@@ -29,12 +25,19 @@ public class C2E1 implements Exercise {
 
     private static long countConcurrentWithoutStreams(List<String> words) {
         try {
+            System.out.println("no of words to process "+words.size());
             int cores = Runtime.getRuntime().availableProcessors();
+            System.out.println("no of cores in my computer "+cores);
             int chunkSize = words.size() / cores;
+            System.out.println("chunk size to be processed by each core "+chunkSize);
+
             List<List<String>> chunks = new LinkedList<>();
+            System.out.println("dividing overall work into chunks");
             for (int i = 0; i < words.size(); i += chunkSize) {
                 chunks.add(words.subList(i, i + Math.min(chunkSize, words.size() - i)));
             }
+            //System.out.println("chunks " +chunks);
+            System.out.println("giving chunks to executor service for processing");
             ExecutorService pool = Executors.newFixedThreadPool(cores);
             Set<Future<Long>> set = new HashSet<>();
             for (List<String> strings : chunks) {

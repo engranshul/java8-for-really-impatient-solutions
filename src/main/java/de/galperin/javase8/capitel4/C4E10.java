@@ -13,10 +13,7 @@ import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
-/**
- * User: eugen
- * Date: 23.11.14
- */
+
 public class C4E10 extends Application {
 
     @Override

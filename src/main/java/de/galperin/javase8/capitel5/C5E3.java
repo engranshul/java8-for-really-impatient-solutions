@@ -11,10 +11,7 @@ import java.util.function.Predicate;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 23.11.14
- */
+
 public class C5E3 implements Exercise {
 
     @Test

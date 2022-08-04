@@ -7,10 +7,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
 
-/**
- * User: eugen
- * Date: 23.11.14
- */
+
 public class C5E4 implements Exercise {
 
     @Test

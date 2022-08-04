@@ -5,10 +5,7 @@ import org.junit.Test;
 
 import java.time.LocalDate;
 
-/**
- * User: eugen
- * Date: 23.11.14
- */
+
 public class C5E2 implements Exercise {
 
     @Test

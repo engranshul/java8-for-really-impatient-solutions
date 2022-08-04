@@ -1,9 +1,6 @@
 package de.galperin.javase8.capitel4;
 
-/**
- * User: eugen
- * Date: 23.11.14
- */
+
 public class Address {
 
     private String street;

@@ -2,16 +2,10 @@ package de.galperin.javase8.capitel2;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.util.Iterator;
 import java.util.stream.Stream;
-
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 28.10.14
- */
 public class C2E8 implements Exercise {
 
     @Test

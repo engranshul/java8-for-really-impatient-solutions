@@ -7,10 +7,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * User: eugen
- * Date: 20.11.14
- */
 public class C4E2 implements Exercise {
 
     @Override

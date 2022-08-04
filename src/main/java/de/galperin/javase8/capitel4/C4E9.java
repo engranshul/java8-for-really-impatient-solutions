@@ -10,10 +10,7 @@ import javafx.scene.shape.*;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
-/**
- * User: eugen
- * Date: 23.11.14
- */
+
 public class C4E9 extends Application {
 
     public void start(Stage stage) {
