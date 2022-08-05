@@ -5,10 +5,6 @@ import org.junit.Test;
 
 import java.util.function.Consumer;
 
-/**
- * User: eugen
- * Date: 15.11.14
- */
 public class C3E17 implements Exercise {
 
     @Override

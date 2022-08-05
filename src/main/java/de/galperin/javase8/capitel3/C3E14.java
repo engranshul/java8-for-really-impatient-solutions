@@ -14,10 +14,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.UnaryOperator;
 
-/**
- * User: eugen
- * Date: 08.11.14
- */
 public class C3E14 extends Application {
 
     public void start(Stage stage) {

@@ -6,10 +6,6 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * User: eugen
- * Date: 27.10.14
- */
 public interface Exercise {
 
     void perform();

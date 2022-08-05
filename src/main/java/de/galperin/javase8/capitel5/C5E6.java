@@ -8,10 +8,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
 
-/**
- * User: eugen
- * Date: 24.11.14
- */
+
 public class C5E6 implements Exercise {
 
     @Test
@@ -19,6 +16,7 @@ public class C5E6 implements Exercise {
     public void perform() {
         LocalDate date = LocalDate.of(1900, 1, 1).with(TemporalAdjusters.nextOrSame(DayOfWeek.FRIDAY));
         LocalDate millennium = LocalDate.of(2000, 1, 1);
+        // isBefore usage and amazing use of while loop
         while (date.isBefore(millennium)) {
             if(date.getDayOfMonth() == 13) {
                 System.out.println(date.format(DateTimeFormatter.ofPattern("E dd MM yyyy")));

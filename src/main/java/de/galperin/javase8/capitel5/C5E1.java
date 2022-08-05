@@ -2,7 +2,6 @@ package de.galperin.javase8.capitel5;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.Period;

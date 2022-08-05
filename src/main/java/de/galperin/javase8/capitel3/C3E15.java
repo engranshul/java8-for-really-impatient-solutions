@@ -13,10 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
-/**
- * User: eugen
- * Date: 10.11.14
- */
 public class C3E15 extends Application {
 
     @Override

@@ -8,10 +8,6 @@ import java.time.*;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-/**
- * User: eugen
- * Date: 30.11.14
- */
 public class C5E12 implements Exercise {
 
     @Test

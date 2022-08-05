@@ -6,10 +6,6 @@ import org.junit.Test;
 import java.util.List;
 import java.util.stream.Stream;
 
-/**
- * User: eugen
- * Date: 28.10.14
- */
 public class C2E3 implements Exercise {
 
     @Test

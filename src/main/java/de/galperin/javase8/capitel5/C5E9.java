@@ -6,10 +6,6 @@ import org.junit.Test;
 import java.time.Instant;
 import java.time.ZoneId;
 
-/**
- * User: eugen
- * Date: 27.11.14
- */
 public class C5E9 implements Exercise {
 
     @Test

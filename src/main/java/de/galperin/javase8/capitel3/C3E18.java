@@ -7,10 +7,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.function.Function;
 
-/**
- * User: eugen
- * Date: 15.11.14
- */
 public class C3E18 implements Exercise {
 
     @FunctionalInterface

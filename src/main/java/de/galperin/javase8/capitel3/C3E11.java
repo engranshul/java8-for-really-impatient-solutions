@@ -11,10 +11,6 @@ import javafx.stage.Stage;
 
 import java.util.function.UnaryOperator;
 
-/**
- * User: eugen
- * Date: 02.11.14
- */
 public class C3E11 extends Application {
 
     public static Image transform(Image in, ColorTransformer t) {

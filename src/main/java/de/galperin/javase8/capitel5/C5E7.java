@@ -9,17 +9,15 @@ import java.util.Objects;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-/**
- * User: eugen
- * Date: 24.11.14
- */
 public class C5E7 implements Exercise {
 
+    // custom class
     class TimeInterval {
         LocalTime start;
         LocalTime end;
 
         TimeInterval(LocalTime start, LocalTime end) {
+            // validation check
             if (Objects.isNull(start) || Objects.isNull(end) || start.isAfter(end)) {
                 throw new IllegalArgumentException();
             }
@@ -27,6 +25,7 @@ public class C5E7 implements Exercise {
             this.end = end;
         }
 
+        // amazing use of after,before methods
         boolean overlap(TimeInterval second) {
             return this.start.isAfter(second.start) && this.start.isBefore(second.end)
                     || second.start.isAfter(this.start) && second.start.isBefore(this.end);

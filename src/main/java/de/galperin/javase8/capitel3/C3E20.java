@@ -10,10 +10,6 @@ import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertTrue;
 
-/**
- * User: eugen
- * Date: 15.11.14
- */
 public class C3E20 implements Exercise {
 
     @Test

@@ -7,10 +7,7 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.temporal.ChronoUnit;
 
-/**
- * User: eugen
- * Date: 24.11.14
- */
+
 public class C5E5 implements Exercise {
 
     @Test

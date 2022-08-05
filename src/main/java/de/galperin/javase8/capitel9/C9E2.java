@@ -10,10 +10,6 @@ import java.util.Scanner;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-/**
- * User: eugen
- * Date: 14.12.14
- */
 public class C9E2 implements Exercise {
 
     @Test

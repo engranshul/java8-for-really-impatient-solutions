@@ -6,10 +6,6 @@ import org.junit.Test;
 import java.util.function.BiConsumer;
 import java.util.function.Supplier;
 
-/**
- * User: eugen
- * Date: 14.11.14
- */
 public class C3E16 implements Exercise {
 
     @Override
