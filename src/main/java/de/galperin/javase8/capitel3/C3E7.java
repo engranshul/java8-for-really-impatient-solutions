@@ -10,10 +10,6 @@ import java.util.EnumSet;
 import static de.galperin.javase8.capitel3.CompareOptions.*;
 import static org.junit.Assert.assertArrayEquals;
 
-/**
- * User: eugen
- * Date: 01.11.14
- */
 public class C3E7 implements Exercise {
 
     @Test

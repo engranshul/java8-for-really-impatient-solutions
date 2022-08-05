@@ -2,7 +2,6 @@ package de.galperin.javase8.capitel3;
 
 import de.galperin.javase8.Exercise;
 import org.junit.Test;
-
 import java.util.function.Supplier;
 import java.util.logging.Level;
 import java.util.logging.Logger;

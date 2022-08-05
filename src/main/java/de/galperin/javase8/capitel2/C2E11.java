@@ -12,10 +12,6 @@ import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 29.10.14
- */
 public class C2E11 implements Exercise {
 
     @Test

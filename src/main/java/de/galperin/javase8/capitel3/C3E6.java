@@ -8,13 +8,8 @@ import javafx.scene.image.WritableImage;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-
 import java.util.function.BiFunction;
 
-/**
- * User: eugen
- * Date: 01.11.14
- */
 public class C3E6 extends Application {
 
     public static <T> Image transform(Image in, BiFunction<Color, T, Color> f, T arg) {

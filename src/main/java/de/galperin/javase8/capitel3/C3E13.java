@@ -13,10 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
-/**
- * User: eugen
- * Date: 02.11.14
- */
 public class C3E13 extends Application {
 
     public void start(Stage stage) {

@@ -9,10 +9,6 @@ import java.util.Comparator;
 
 import static org.junit.Assert.*;
 
-/**
- * User: eugen
- * Date: 02.11.14
- */
 public class C3E9 implements Exercise {
 
     class Person {

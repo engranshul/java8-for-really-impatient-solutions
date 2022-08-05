@@ -19,6 +19,7 @@ public class C2E8 implements Exercise {
 
     public <T> Stream<T> zip(Stream<T> first, Stream<T> second) {
         Iterator<T> secondAsIterator = second.iterator();
+        // concept of Stream.Builder..can explore more if required
         Stream.Builder<T> builder = Stream.builder();
         first.forEach((e) -> {
             if (secondAsIterator.hasNext()) {

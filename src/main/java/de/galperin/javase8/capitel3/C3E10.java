@@ -12,10 +12,7 @@ import javafx.stage.Stage;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
-/**
- * User: eugen
- * Date: 02.11.14
- */
+
 public class C3E10 extends Application {
 
     // UnaryOperator.compose returns a Function, so we have to use Function<T,T> here

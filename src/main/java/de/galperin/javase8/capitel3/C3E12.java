@@ -13,10 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
-/**
- * User: eugen
- * Date: 02.11.14
- */
+// builder example
 public class C3E12 extends Application {
 
     public void start(Stage stage) {

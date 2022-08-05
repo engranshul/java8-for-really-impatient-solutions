@@ -9,10 +9,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-/**
- * User: eugen
- * Date: 02.11.14
- */
 public class C3E8 extends Application {
 
     public static Image transform(Image in, ColorTransformer t) {
