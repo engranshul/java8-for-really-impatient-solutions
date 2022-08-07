@@ -7,10 +7,6 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 03.12.2014
- */
 public class C6E9 implements Exercise {
 
     class Matrix {

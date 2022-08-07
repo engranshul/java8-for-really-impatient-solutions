@@ -15,10 +15,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * User: eugen
- * Date: 03.12.2014
- */
 public class C6E10 implements Exercise {
 
     @Test

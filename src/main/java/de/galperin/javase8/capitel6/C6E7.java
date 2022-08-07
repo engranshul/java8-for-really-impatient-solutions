@@ -8,10 +8,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 03.12.14
- */
 public class C6E7 implements Exercise {
 
     @Test

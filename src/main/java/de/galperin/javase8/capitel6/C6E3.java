@@ -11,10 +11,6 @@ import java.util.stream.IntStream;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * User: eugen
- * Date: 30.11.14
- */
 public class C6E3 {
 
     @Test

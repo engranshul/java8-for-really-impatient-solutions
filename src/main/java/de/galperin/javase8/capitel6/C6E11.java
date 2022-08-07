@@ -10,10 +10,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-/**
- * User: eugen
- * Date: 03.12.2014
- */
 public class C6E11 {
 
     public static <T> CompletableFuture<T> repeat(Supplier<T> action, Predicate<T> until) {

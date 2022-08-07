@@ -15,10 +15,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-/**
- * User: eugen
- * Date: 02.12.14
- */
 public class C6E5 implements Exercise {
 
     @Test
