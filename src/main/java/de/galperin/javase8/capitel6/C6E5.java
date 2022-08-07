@@ -20,6 +20,7 @@ public class C6E5 implements Exercise {
     @Test
     @Override
     public void perform() {
+        // Map to figure out in which files a string exist
         ConcurrentHashMap<String, Set<File>> map = new ConcurrentHashMap<>();
         File[] files = {
                 new File(this.getClass().getResource("/alice.txt").getFile()),

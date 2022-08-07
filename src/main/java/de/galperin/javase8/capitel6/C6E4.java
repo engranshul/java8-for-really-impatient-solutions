@@ -9,15 +9,12 @@ import java.util.stream.Stream;
 
 import static org.junit.Assert.assertTrue;
 
-/**
- * User: eugen
- * Date: 01.12.14
- */
 public class C6E4 implements Exercise {
 
     @Test
     @Override
     public void perform() {
+        // LongAccumulator nice usecases
         LongAccumulator maxAccumulator = new LongAccumulator(Math::max, 0);
         LongAccumulator minAccumulator = new LongAccumulator(Math::min, 10000);
         IntStream.range(0, 10).forEach(i ->

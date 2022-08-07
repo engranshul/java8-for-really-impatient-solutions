@@ -18,6 +18,7 @@ public class C6E3 {
         ExecutorService executor = Executors.newFixedThreadPool(1000);
         long start = System.currentTimeMillis();
         AtomicLong counter = new AtomicLong();
+        // Interesting : array of completable future
         CompletableFuture[] futures = new CompletableFuture[1000];
         IntStream.range(0, 1000).forEach(i ->
                 futures[i] = CompletableFuture.runAsync(() ->

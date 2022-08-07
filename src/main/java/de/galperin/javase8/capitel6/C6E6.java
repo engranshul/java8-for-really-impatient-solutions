@@ -29,6 +29,7 @@ public class C6E6 implements Exercise {
                 new File(this.getClass().getResource("/alice.txt").getFile()),
                 new File(this.getClass().getResource("/person.fxml").getFile()),
         };
+        // Exception handling in lambda
         Arrays.asList(files).parallelStream().forEach(f -> {
             try {
                 Arrays.asList(new String(Files.readAllBytes(f.toPath()), StandardCharsets.UTF_8)
