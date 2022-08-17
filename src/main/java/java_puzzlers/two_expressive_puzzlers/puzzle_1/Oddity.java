@@ -1,7 +1,8 @@
 package java_puzzlers.two_expressive_puzzlers.puzzle_1;
 
 public class Oddity {
-    // int is a 32 bit integer
+    // 1 Byte = 8 bits
+    // int is a 32 bit integer ie 4 byte
     public static boolean isOdd(int i) {
         int result = i % 2;
         System.out.println("result is "+result);
