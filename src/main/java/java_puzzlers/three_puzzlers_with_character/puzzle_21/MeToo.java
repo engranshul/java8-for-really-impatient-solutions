@@ -1,4 +1,4 @@
-package com.javapuzzlers;
+package java_puzzlers.three_puzzlers_with_character.puzzle_21;
 import java.io.File;
 
 public class MeToo {

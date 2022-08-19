@@ -10,6 +10,7 @@ public class Oddity {
     }
 
     public static void main(String[] args) {
+        System.out.println(Integer.bitCount(10)); // tells no of set bits
         System.out.println(isOdd(12345567));
         System.out.println(isOdd(-12345567));
     }
@@ -20,3 +21,7 @@ public class Oddity {
 // In Java SE 8 and later, you can use the int data type to represent an
 // unsigned 32-bit integer, which has a minimum value of 0 and a maximum
 // value of 2^32-1.
+
+// Think about the sign of the operands and of the result whenever u use
+// the remainder operator
+

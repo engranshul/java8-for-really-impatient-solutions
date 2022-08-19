@@ -8,3 +8,8 @@ public class CleverSwap {
         System.out.println("x = " + x + "; y = " + y);
     }
 }
+
+// Do not assign the same variable more than once in a single expression
+// Expressions containing multiple assignments to the same variable are
+// confusing and seldom do wat u want..
+

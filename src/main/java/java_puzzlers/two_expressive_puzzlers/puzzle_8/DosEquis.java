@@ -8,3 +8,7 @@ public class DosEquis {
         System.out.print(false ? i : x); 
     }
 }
+
+// Best to use same type for the second and third operands in
+// conditional expressions
+
