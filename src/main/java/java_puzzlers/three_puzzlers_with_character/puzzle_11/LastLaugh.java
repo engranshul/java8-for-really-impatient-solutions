@@ -17,6 +17,11 @@ public class LastLaugh {
 
         // another way
         System.out.println(""+'H'+'a');
+
+        System.out.println("*********");
+        String str = "ha";
+        System.out.print(str.charAt(0)+str.charAt(1));
+        System.out.print('h'+'a');
     }
 }
 
